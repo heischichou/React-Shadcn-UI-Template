@@ -1,19 +1,27 @@
-# React TypeScript Template
+# React Shadcn/UI Template
 
-A React TypeScript + Tailwind template powered by CRACO.
+A React TypeScript + Tailwind template powered by [shadcn/ui](https://ui.shadcn.com/).
+
+## 🎉 Features
+
+- **React** - A JavaScript library for building user interfaces.
+- **TypeScript** - A typed superset of JavaScript that compiles to plain JavaScript.
+- **Tailwind CSS** - A utility-first CSS framework.
+- **shadcn/ui** - Beautifully designed components that you can copy and paste into your apps.
+- **React Router** - Declarative routing for React.
 
 ## 🚀 Getting Started
 Follow these steps to get started:
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/heischichou/React-Typescript-Template
+    git clone https://github.com/heischichou/React-Shadcn-UI-Template
     ```
 
 2. Navigate to the project directory:
 
     ```bash
-    cd react-typecript-template
+    cd React-Shadcn-UI-Template
     ```
 
 3. Install the dependencies:
@@ -36,12 +44,6 @@ The page will reload if you make edits. You will also see any lint errors in the
 npm run start
 ```
 
-### Run your tests
-Launches the test runner in the interactive watch mode.
-```
-npm run test
-```
-
 ### Compiles and minifies for production
 Builds the app for production to the `build` folder. It correctly bundles React in production mode and optimizes the build for the best performance.
 ```
@@ -60,21 +62,25 @@ npm run eject
 
 The project structure follows a standard React application layout:
 
-```python
+```php
 react-typescript-template/
-  ├── node_modules/        # Project dependencies
-  ├── public/              # Public assets
-  ├── src/                 # Application source code
-  │   ├── styles/          # CSS stylesheets
-  │   │   └── App.css      # Default stylesheet
-  │   ├── tests/           # App tests
-  │   │   └── App.test.tsx # App test
-  │   ├── App.tsx          # Application entry point
-  │   ├── index.css        # Application stylesheet
-  │   └── index.tsx        # Main rendering file
-  ├── craco.config.js      # CRACO configuration
-  ├── tailwind.config.js   # Tailwind CSS configuration
-  └── tsconfig.json        # TypeScript configuration
+  ├── node_modules/          # Project dependencies
+  ├── public/                # Public assets
+  ├── src/                   # Application source code
+  │   ├── components/        # React components
+  │   │   └── ui/            # Shadcn UI components
+  │   │       └── button.tsx # Shadcn Button component
+  │   │       └── input.tsx  # Shadcn Input component
+  │   ├── pages/             # React Router pages
+  │   │   └── HomePage.tsx   # Default route component
+  │   ├── styles/            # CSS stylesheets for components
+  │   │   └── App.css        # Default stylesheet with shadcn globals declared
+  │   ├── App.tsx            # Application entry point
+  │   ├── index.css          # Application stylesheet
+  │   └── index.tsx          # Main rendering file
+  ├── craco.config.js        # CRACO configuration
+  ├── tailwind.config.js     # Tailwind CSS configuration
+  └── tsconfig.json          # TypeScript configuration
 ```
 
 ## 📄 License
