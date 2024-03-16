@@ -7,7 +7,7 @@ A React TypeScript + Tailwind template powered by [shadcn/ui](https://ui.shadcn.
 - **React** - A JavaScript library for building user interfaces.
 - **TypeScript** - A typed superset of JavaScript that compiles to plain JavaScript.
 - **Tailwind CSS** - A utility-first CSS framework.
-- **shadcn/ui** - Beautifully designed components that you can copy and paste into your apps.
+- **shadcn/ui** - Beautifully designed components you can copy and paste into your apps.
 - **React Router** - Declarative routing for React.
 
 ## 🚀 Getting Started
@@ -50,7 +50,7 @@ Builds the app for production to the `build` folder. It correctly bundles React 
 npm run build
 ```
 
-### Remove the project single build dependency
+### Remove the project single-build dependency
 This command will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
 **Note: This is a one-way operation. Once you `eject`, you can’t go back!**
@@ -63,7 +63,7 @@ npm run eject
 The project structure follows a standard React application layout:
 
 ```php
-react-typescript-template/
+React-Shadcn-UI-Template/
   ├── node_modules/          # Project dependencies
   ├── public/                # Public assets
   ├── src/                   # Application source code
