@@ -62,7 +62,7 @@ npm run eject
 
 The project structure follows a standard React application layout:
 
-```php
+```python
 React-Shadcn-UI-Template/
   ├── node_modules/          # Project dependencies
   ├── public/                # Public assets
